@@ -1,10 +1,161 @@
-<html> 
-  
-<body> 
-  <h1>ANJUM SHAHZAD</h1> 
-  <p>Welcome to my website!</p> 
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" /> 
-</body> 
-  
-</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System | Project</title>
+    <!-- stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#textstyles">Text Styles</a></li>
+            </ul>
+        </nav>
+        <!-- Banner Headings -->
+        <h1>Website Design System</h1>
+        <h2>By: mycodekaffe<span><img src="./image/logo_128X128.png" class="logo"></span></h2>
+        
+    </header>
+    <main>
+        <!-- Color Selections -->
+        <span id="colors"></span>
+        <div class="container">
+            <h2>Colors</h2>
+            <div class="color-container">
+                <div class="color-card">
+                    <div class="color-panel green-1"></div>
+                    <div class="color-panel-footer">
+                        <p>Dark Green</p>
+                        <p>#1B3409</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-panel green-2"></div>
+                    <div class="color-panel-footer">
+                        <p>Forest Green</p>
+                        <p>#375F1B</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-panel green-3"></div>
+                    <div class="color-panel-footer">
+                        <p>Lime Green</p>
+                        <p>#66B032</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-panel green-4"></div>
+                    <div class="color-panel-footer">
+                        <p>Light Green</p>
+                        <p>#9BD770</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-panel green-5"></div>
+                    <div class="color-panel-footer">
+                        <p>Honey Dew</p>
+                        <p>#EBF7E3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Font Selections -->
+        <span id="fonts"></span>
+        <div class="container">
+            <h2>Fonts</h2>
+            <div class="font-container">
+                <div class="font-card">
+                    <div class="font-panel">
+                        <p class="regular alfa-slab-one">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="italic alfa-slab-one">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                    <div class="font-panel-footer">
+                        <p class="font-label alfa-slab-one">Alfa Slab One</p>
+                    </div>
+                </div>
+                <div class="font-card">
+                    <div class="font-panel">
+                        <p class="regular roboto">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="bold roboto">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="italic roboto">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                    <div class="font-panel-footer">
+                        <p class="font-label roboto">Roboto</p>
+                    </div>
+                </div>
+                <div class="font-card">
+                    <div class="font-panel">
+                        <p class="regular segoe-ui">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="bold segoe-ui">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="italic segoe-ui">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                    <div class="font-panel-footer">
+                        <p class="font-label segoe-ui">Segoe UI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Text Styles -->
+        <span id="textstyles"></span>
+        <div class="container">
+            <h2>Text Styles</h2>
+            <div class="text-container">
+                <div class="text-card">
+                    <div class="text-panel-header">
+                        <h1>H1: Main page heading</h1>
+                    </div>
+                    <div class="text-panel">
+                        <ul>
+                            <li>Font-weight: 700 (bold)</li>
+                            <li>Font-size: 26px</li>
+                            <li>Font-family: Alfa Slab One</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <div class="text-panel-header">
+                        <h2>H2: Subheading</h2>
+                    </div>
+                    <div class="text-panel">
+                        <ul>
+                            <li>Font-weight: 500</li>
+                            <li>Font-size: 18px</li>
+                            <li>Font-family: Roboto</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <div class="text-panel-header">
+                        <p>P: Paragraph text</p>
+                    </div>
+                    <div class="text-panel">
+                        <ul>
+                            <li>Font-weight: 400 (regular)</li>
+                            <li>Font-size: 14px</li>
+                            <li>Font-family: Segoe UI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <p>© Copyright. All Rights Reserved. 2022 &mdash; mycodekaffe</p>
+    </footer>
+</body>
+</html>
