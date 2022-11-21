@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -252,7 +256,6 @@ footer {
     border-top: 2px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
     text-align: center;
-    width: 100%;
     background-color: #424f66;
     margin-top: 90px;
     position: sticky;
